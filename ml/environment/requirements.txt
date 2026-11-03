@@ -1,0 +1,15 @@
+numpy
+pandas
+xarray
+scikit-learn
+matplotlib
+seaborn
+torch
+torchvision
+tensorflow
+fastapi
+uvicorn
+pydantic
+joblib
+netCDF4
+h5py
