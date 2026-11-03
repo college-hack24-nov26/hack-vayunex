@@ -1,0 +1,293 @@
+.landing {
+  background: #f7faff;
+  color: #172b45;
+  min-height: 100vh;
+}
+
+.landing-nav {
+  height: 78px;
+  padding: 0 8%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+  border-bottom: 1px solid #e7edf5;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 800;
+  letter-spacing: 2px;
+  font-size: 20px;
+  color: #176dc1;
+  text-decoration: none;
+}
+
+.brand-icon {
+  width: 36px;
+  height: 36px;
+  display: grid;
+  place-items: center;
+  background: #176dc1;
+  color: white;
+  border-radius: 11px;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.nav-links a {
+  color: #52647b;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.nav-login,
+.secondary-btn {
+  padding: 11px 22px;
+  border: 1px solid #176dc1;
+  background: white;
+  color: #176dc1;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.hero-section {
+  min-height: 580px;
+  padding: 85px 10%;
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  gap: 50px;
+  align-items: center;
+}
+
+.eyebrow {
+  color: #1677c8;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 2px;
+}
+
+.hero-copy h1 {
+  font-size: clamp(42px, 5vw, 65px);
+  line-height: 1.12;
+  letter-spacing: -2px;
+  margin: 22px 0;
+}
+
+.hero-copy h1 span {
+  color: #1677c8;
+}
+
+.hero-copy > p {
+  color: #64758a;
+  max-width: 530px;
+  line-height: 1.9;
+  font-size: 16px;
+}
+
+.hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin-top: 30px;
+}
+
+.primary-btn {
+  background: #176dc1;
+  color: white;
+  border: 0;
+  border-radius: 8px;
+  padding: 14px 22px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.primary-btn:hover {
+  background: #10569d;
+}
+
+.hero-note {
+  margin-top: 28px;
+  font-size: 12px;
+  color: #738298;
+}
+
+.status-dot {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  background: #16a36a;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+
+.hero-visual {
+  position: relative;
+  padding: 30px;
+  background: linear-gradient(145deg, #d8ecff, #eef7ff);
+  border-radius: 30px;
+}
+
+.weather-card {
+  background: white;
+  border: 1px solid #e4edf7;
+  border-radius: 20px;
+  padding: 30px;
+  box-shadow: 0 20px 50px #2869a51a;
+}
+
+.weather-top {
+  display: flex;
+  justify-content: space-between;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  color: #78899e;
+}
+
+.live-label {
+  color: #16865a;
+}
+
+.weather-icon {
+  font-size: 72px;
+  margin-top: 35px;
+}
+
+.weather-card h2 {
+  font-size: 27px;
+  margin: 10px 0;
+}
+
+.weather-card p {
+  color: #8291a5;
+}
+
+.weather-stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 35px;
+  padding-top: 22px;
+  border-top: 1px solid #edf1f6;
+}
+
+.weather-stats div {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.weather-stats strong {
+  color: #176dc1;
+  font-size: 20px;
+}
+
+.weather-stats span {
+  font-size: 11px;
+  color: #8291a5;
+}
+
+.floating-card {
+  position: absolute;
+  bottom: 5px;
+  right: -15px;
+  padding: 15px 20px;
+  background: #176dc1;
+  color: white;
+  border-radius: 10px;
+  font-size: 12px;
+  box-shadow: 0 10px 30px #176dc144;
+}
+
+.features-section {
+  padding: 75px 10%;
+  background: white;
+}
+
+.section-heading {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.section-heading h2,
+.about-section h2 {
+  font-size: 32px;
+  margin-top: 15px;
+}
+
+.feature-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 22px;
+}
+
+.feature-card {
+  padding: 30px;
+  border: 1px solid #e5edf6;
+  border-radius: 14px;
+  transition: 0.2s;
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 35px #1d5b9014;
+}
+
+.feature-icon {
+  font-size: 32px;
+}
+
+.feature-card h3 {
+  font-size: 18px;
+  margin: 20px 0 10px;
+}
+
+.feature-card p,
+.about-section p {
+  color: #728196;
+  line-height: 1.8;
+  font-size: 14px;
+}
+
+.about-section {
+  padding: 90px 10%;
+  text-align: center;
+}
+
+.about-section p {
+  max-width: 650px;
+  margin: 20px auto 28px;
+}
+
+.landing-footer {
+  padding: 25px;
+  text-align: center;
+  background: white;
+  color: #8190a3;
+  font-size: 12px;
+}
+
+@media (max-width: 800px) {
+  .hero-section {
+    grid-template-columns: 1fr;
+    padding: 55px 7%;
+  }
+
+  .feature-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .nav-links {
+    gap: 12px;
+  }
+
+  .nav-links a {
+    display: none;
+  }
+}
